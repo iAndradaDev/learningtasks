@@ -1,0 +1,99 @@
+    body{
+		background-color: #ffffff;
+	}
+    .container{
+        position: relative;
+        background-color: #465c44;
+        min-width: 100%;
+        min-height: 100%;
+        text-align: center;
+    }
+    .gallery-container{
+        position: relative;
+        min-width: 100%;
+        min-height: 100vh;
+        text-align: center;
+    }
+    .header{
+        height: 130px;
+        background-color: #fff;
+    }
+    .logo{
+        margin-top: 10px;
+        width: auto;
+        height: 100px;
+        object-fit: cover;
+        align-items: center;
+    }
+    .navigation{
+        height: 60px;
+        background-color: #17700f;
+        border-top: 2px solid #004100;
+        border-bottom: 2px solid #004100;
+    }
+    .button {
+        background-color: #ffffff;
+        color: #000000;
+        border: 1.5px solid #17700f;
+        border-radius: 6px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 7px 10px;
+    }
+    .button:hover{
+        background-color: #e6ffe0;
+        text-decoration: underline;
+    }
+    .background{
+        height: 79.5%;
+        width: 100%;
+        opacity: 20%;
+        object-fit: cover;
+    }
+    .textbox{
+        position: absolute;
+        top: 210px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 30px;
+    }
+    .link{
+        font-size: 30px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .headline-pic{
+        background-color: #fff;
+        width: 98%;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .boxes{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 5px;
+    }
+    .box-pics{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 2px solid #17700f;
+        border-radius: 10px;
+    }
