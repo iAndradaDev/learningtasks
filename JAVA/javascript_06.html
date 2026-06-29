@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>.:JavaScript 06:.</title>
+        <style type="text/css">
+            .image-container {
+                display: none;
+            }
+        </style>
+        <script>
+            function setVisibility(targetId, value){
+                document.getElementById(targetId).style.display = value;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="image-container" id="genshin-logo">
+            <img src="genshin-logo.jpg" width="30%" alt="Genshin Impact Logo" />
+        </div>
+        
+        [   <a href="javascript:void(0)" onclick="setVisibility('genshin-logo', 'block')">Display Image</a> |
+            <a href="javascript:void(0)" onclick="setVisibility('genshin-logo', 'none')">Hide Image</a>
+        ] 
+        
+        <br>
+        
+        <div class="image-container" id="lol-logo">
+            <img src="lol-logo.png" width="30%" alt="League of Legends Logo" />
+        </div>
+        
+        [   <a href="javascript:void(0)" onclick="setVisibility('lol-logo', 'block')">Display Image</a> |
+            <a href="javascript:void(0)" onclick="setVisibility('lol-logo', 'none')">Hide Image</a>
+        ]
+    </body>
+</html>
